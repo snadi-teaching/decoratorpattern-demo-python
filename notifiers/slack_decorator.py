@@ -7,4 +7,4 @@ class SlackDecorator(NotifierDecorator):
         self.send_to_slack(message)
 
     def send_to_slack(self, message: str) -> None:
-        print("Sent message to SLACK")
+        print(f"Sent {message} to SLACK")

@@ -7,4 +7,4 @@ class FacebookDecorator(NotifierDecorator):
         self.send_facebook(message)
 
     def send_facebook(self, message: str) -> None:
-        print("Sent message to Facebook")
+        print(f"Sent {message} to Facebook")

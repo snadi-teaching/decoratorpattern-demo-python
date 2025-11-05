@@ -7,4 +7,4 @@ class SMSDecorator(NotifierDecorator):
         self.send_sms(message)
 
     def send_sms(self, message: str) -> None:
-        print("Sent SMS to phone")
+        print(f"Sent {message} via SMS")
